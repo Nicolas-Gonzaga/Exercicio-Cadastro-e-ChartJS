@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">  <h1 class="titulo"> Acquatec</h1>
+            
+            <ul class="navbar">
+                <li>Home</li>
+                <li>Sobre nós</li>
+                <li>Home</a></li>
+                <li>Cadastrar</li>
+                <li>Suporte</li>
+            </ul>
+            </div>
+        </div>
+    
+    
+    <div class="banner">
+
+        <div class="container">
+            <div class="card">
+                <h1>Olá, bem vindo(a)!</h1>
+                <h4>Insira seu Nome completo</h4>
+                <input type="text" placeholder="Seu Nome e Sobrenome">
+                <h4>Insira seu endereço de e-mail</h4>
+                <input type="text" id="i_email" placeholder="your@example.com">  
+                <h4>Confirme seu e-mail</h4>
+                <input type="text" id="i_confirma" placeholder=
+                "Seu e-mail">
+                <h4>Senha</h4>
+                <input type="password" id="i_senha" placeholder="Sua senha">
+                <h4>Confirme sua senha</h4>
+                <input type="password" id="i_confirm" placeholder="Confirme sua senha">
+                <button class="btn" onclick="Cadastrar()">Cadastrar</button>
+            </div>
+
+    
+</body>
+</html>
+<script>
+    function Cadastrar(){
+        if (i_senha != i_confirm && i_email != i_confirma){
+        alert(`Email ou senha inválidos`)}
+        if(i_senha==i_confirm && i_email== i_confirma){
+        }
+        alert(`Cadastro realizado com sucesso!`)
+    
+
+        }
+        
+</script>
